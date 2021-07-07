@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    hikari:
+      maximum-pool-size: 5
+      minimum-idle: 2
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id: 191891559436977
+            client-secret: e2d05e7ba86512dcaecb74fda4622a90
+
